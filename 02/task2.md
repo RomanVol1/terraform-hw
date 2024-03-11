@@ -1,3 +1,4 @@
+```
 resource "yandex_vpc_network" "develop" {
   name = var.vpc_name
 }
@@ -39,3 +40,4 @@ resource "yandex_compute_instance" "platform" {
     ssh-keys           = "ubuntu:${var.ssh_root_key}"
   }
 }
+```
