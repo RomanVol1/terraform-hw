@@ -1,6 +1,6 @@
 main.tf
 
-```
+
 variable "zones" {
   type        = list(string)
   description = "List of zones to use for resources"
@@ -134,4 +134,3 @@ output "instance_details" {
     }
   }
 }
-```
